@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.codepen.io	TRUE	/	FALSE	1999999999	__cf_bm	s5xXJEp2rVQxNj36Ra7xdSovawX3TITTgXjGDUddRqg-1704720257-1-AZX+P5ta1mnIhf97qM9jPnkHNkJ3F2v1VFqCuxsRpZsuSi0LMi2N8cWvVeQBbAN7jqsa2lml9GjGWnNoIqrSW24=
+static.codepen.io	TRUE	/	FALSE	1999999999	SameSite	None
+
