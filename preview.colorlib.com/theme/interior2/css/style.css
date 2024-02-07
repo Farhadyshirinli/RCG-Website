@@ -21,8 +21,9 @@ body {
 .logo img {
   /* height: 80px;
   width: 100px; */
-  margin-top: 2px;
-  transform: scale(2.8);
+  margin-left: 20px;
+  /* margin-top: 10px; */
+  transform: scale(3.5);
 }
 
 /* line 12, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/theme-default.scss */
@@ -102,7 +103,7 @@ li {
 
 /* line 59, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/theme-default.scss */
 p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 28px;
   color: #596672;
@@ -435,7 +436,7 @@ h3 {
 
 /* line 2, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_section_title.scss */
 .section_title h3 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 500;
   color: #001d38;
   position: relative;
@@ -874,7 +875,7 @@ h3 {
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
-  top: -70px;
+  top: -73px;
   left: 0;
   right: 0;
   z-index: 990;
@@ -961,12 +962,12 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/RC-Main-yellow.jpg);
+  background-image: url(../img//RC-On-site.jpg);
 }
 
 /* line 4, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img//RC-On-site.jpg);
+  background-image: url(../img/RC-Main-yellow.jpg);
 }
 
 /* line 7, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_slider.scss */
@@ -1023,7 +1024,7 @@ h3 {
 /* line 58, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   text-transform: capitalize;
   letter-spacing: 2px;
   font-weight: 600;
@@ -1413,6 +1414,7 @@ h3 {
 
 /* line 16, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_testmonial.scss */
 .testimonial_area .single_testmonial p {
+  
   color: #fff;
   font-weight: 400;
   font-size: 20px;
@@ -1424,6 +1426,8 @@ h3 {
   /* line 22, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_testmonial.scss */
   .testimonial_area .single_testmonial p br {
     display: none;
+  padding-top: 80px;
+
   }
 }
 
@@ -1532,12 +1536,12 @@ h3 {
 
 /* line 2, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_prising.scss */
 .prise_area .col-xl-4:nth-child(1) .single_prise:before {
-  background-image: url(../img/prise/2.png);
+  background-image: url(../img/image9.png);
 }
 
 /* line 5, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_prising.scss */
 .prise_area .col-xl-4:nth-child(3) .single_prise:before {
-  background-image: url(../img/prise/3.png);
+  background-image: url(../img/image14.png);
 }
 
 /* line 8, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_prising.scss */
@@ -1570,7 +1574,7 @@ h3 {
 
 /* line 23, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_prising.scss */
 .prise_area .single_prise .prise_header h5 {
-  font-size: 30px;
+  font-size: 25px;
   color: #001d38;
   font-weight: 500;
   margin-bottom: 10px;
@@ -1598,7 +1602,7 @@ h3 {
 /* line 43, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_prising.scss */
 .prise_area .single_prise .prise_header .prise_text {
   padding-left: 45px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   opacity: 0;
   color: #eaeaea;
   -webkit-transition: 0.5s;
@@ -1623,7 +1627,7 @@ h3 {
 
 /* line 57, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_prising.scss */
 .prise_area .single_prise .prise_number {
-  font-size: 179px;
+  font-size: 135px;
   font-weight: 500;
   color: #e5e8ea;
   -webkit-transition: 0.5s;
@@ -1649,7 +1653,7 @@ h3 {
 
 /* line 70, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_prising.scss */
 .prise_area .single_prise:before {
-  background-image: url(../img/prise/1.png);
+  background-image: url(../img/Azercell.jpeg);
   left: 0;
   top: 0;
   width: 100%;
@@ -1841,7 +1845,8 @@ h3 {
 
 /* line 58, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_project_details.scss */
 .project_details_area .social_links ul li a {
-  background: #3b5997;
+  background: rgb(10, 102, 194);
+
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -1857,12 +1862,12 @@ h3 {
 
 /* line 68, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_project_details.scss */
 .project_details_area .social_links ul li:nth-child(2) a {
-  background: #1da1f2;
+  background: rgb(221, 42, 123);
 }
 
 /* line 71, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_project_details.scss */
 .project_details_area .social_links ul li:nth-child(3) a {
-  background: #b21d23;
+  background: rgb(29, 161, 242);
 }
 
 /* line 80, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_project_details.scss */
@@ -2299,7 +2304,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_insta.scss */
 .instagram_area {
-  padding-top: 180px;
+  padding-top: 130px;
   padding-bottom: 150px;
 }
 
@@ -3142,7 +3147,7 @@ h3 {
 
 /* line 207, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_footer.scss */
 .footer .query_area .query_text h3 {
-  font-size: 30px;
+  font-size: 25px;
   color: #fff;
   font-weight: 500;
   line-height: 52px;
@@ -3197,7 +3202,7 @@ h3 {
 /* line 239, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_footer.scss */
 .footer .query_area .query_number h3 {
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   margin-bottom: 8px;
 }
@@ -3211,7 +3216,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/RC-Main-yellow.jpg);
 }
 
 /* line 4, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_bradcam.scss */
@@ -3226,7 +3231,7 @@ h3 {
 
 /* line 10, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_bradcam.scss */
 .bradcam_bg_4 {
-  background-image: url(../img/banner/details.png);
+  background-image: url(../img/PD/DSC09999.jpg);
 }
 
 /* line 13, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_bradcam.scss */
