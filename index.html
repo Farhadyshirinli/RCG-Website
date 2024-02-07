@@ -1,807 +1,144 @@
-<!DOCTYPE html>
-<html class="no-js" lang="zxx">
-  <!-- Mirrored from preview.colorlib.com/theme/interior2/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jan 2024 13:24:04 GMT -->
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>RC Group</title>
-    <meta name="description" content />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<html xmlns="#" lang="en">
 
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" />
+	<meta name="keywords" />
+	<title>RC Group</title>
+  <!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
+	<!-- <style type="text/css">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/themify-icons.css" />
-    <link rel="stylesheet" href="css/nice-select.css" />
-    <link rel="stylesheet" href="css/flaticon.css" />
-    <link rel="stylesheet" href="css/gijgo.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/slick.css" />
-    <link rel="stylesheet" href="css/slicknav.css" />
-    <link
-      rel="stylesheet"
-      href="../../../ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
 
-    <script nonce="52f06124-a5ae-4760-b875-02f649e74ee5">
-      (function (w, d) {
-        !(function (dp, dq, dr, ds) {
-          dp[dr] = dp[dr] || {};
-          dp[dr].executed = [];
-          dp.zaraz = { deferred: [], listeners: [] };
-          dp.zaraz.q = [];
-          dp.zaraz._f = function (dt) {
-            return async function () {
-              var du = Array.prototype.slice.call(arguments);
-              dp.zaraz.q.push({ m: dt, a: du });
-            };
-          };
-          for (const dv of ["track", "set", "debug"])
-            dp.zaraz[dv] = dp.zaraz._f(dv);
-          dp.zaraz.init = () => {
-            var dw = dq.getElementsByTagName(ds)[0],
-              dx = dq.createElement(ds),
-              dy = dq.getElementsByTagName("title")[0];
-            dy && (dp[dr].t = dq.getElementsByTagName("title")[0].text);
-            dp[dr].x = Math.random();
-            dp[dr].w = dp.screen.width;
-            dp[dr].h = dp.screen.height;
-            dp[dr].j = dp.innerHeight;
-            dp[dr].e = dp.innerWidth;
-            dp[dr].l = dp.location.href;
-            dp[dr].r = dq.referrer;
-            dp[dr].k = dp.screen.colorDepth;
-            dp[dr].n = dq.characterSet;
-            dp[dr].o = new Date().getTimezoneOffset();
-            if (dp.dataLayer)
-              for (const dC of Object.entries(
-                Object.entries(dataLayer).reduce(
-                  (dD, dE) => ({ ...dD[1], ...dE[1] }),
-                  {}
-                )
-              ))
-                zaraz.set(dC[0], dC[1], { scope: "page" });
-            dp[dr].q = [];
-            for (; dp.zaraz.q.length; ) {
-              const dF = dp.zaraz.q.shift();
-              dp[dr].q.push(dF);
-            }
-            dx.defer = !0;
-            for (const dG of [localStorage, sessionStorage])
-              Object.keys(dG || {})
-                .filter((dI) => dI.startsWith("_zaraz_"))
-                .forEach((dH) => {
-                  try {
-                    dp[dr]["z_" + dH.slice(7)] = JSON.parse(dG.getItem(dH));
-                  } catch {
-                    dp[dr]["z_" + dH.slice(7)] = dG.getItem(dH);
-                  }
-                });
-            dx.referrerPolicy = "origin";
-            dx.src =
-              "../../cdn-cgi/zaraz/sd0d9.js?z=" +
-              btoa(encodeURIComponent(JSON.stringify(dp[dr])));
-            dw.parentNode.insertBefore(dx, dw);
-          };
-          ["complete", "interactive"].includes(dq.readyState)
-            ? zaraz.init()
-            : dp.addEventListener("DOMContentLoaded", zaraz.init);
-        })(w, d, "zarazData", "script");
-      })(window, document);
-    </script>
-  </head>
-  <body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
+body {
+	margin: 0;  padding: 0;  margin-bottom: 15px;  margin-top: 8px;
+	background: #77b;
+}
+body, td {
+	font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	}
 
-    <header>
-      <div class="header-area">
-        <div id="sticky-header" class="main-header-area">
-          <div class="container-fluid">
-            <div class="header_bottom_border">
-              <div class="row align-items-center">
-                <div class="col-xl-3 col-lg-2">
-                  <div class="logo">
-                    <a href="index.html">
-                      <img src="img/Logo-rc-AG-KEISM.svg" alt />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-xl-6 col-lg-7">
-                  <div class="main-menu d-none d-lg-block">
-                    <nav>
-                      <ul id="navigation">
-                        <li><a class="active" href="index.html">home</a></li>
-                        <li><a href="Projects.html">Projects</a></li>
-                        <li>
-                          <a href="#">pages <i class="ti-angle-down"></i></a>
-                          <ul class="submenu">
-                            <li><a href="about.html">about</a></li>
-                            <li>
-                              <a href="project_details.html">project details</a>
-                            </li>
-                            <li><a href="elements.html">elements</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a href="#">blog <i class="ti-angle-down"></i></a>
-                          <ul class="submenu">
-                            <li><a href="blog.html">blog</a></li>
-                            <li><a href="single-blog.html">single-blog</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
-                      </ul>
-                    </nav>
-                  </div>
-                </div>
+#subTitle {
+	background: #000;  color: #fff;  padding: 4px;  font-weight: bold; 
+	}
 
-                <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                  <div class="say_hello">
-                    <a>Follow Us:</a>
-                    <a href="https://www.linkedin.com/feed/" target="_blank"
-                      ><img src="./img/svg_icon/linkedin.svg" alt=""
-                    /></a>
-                    <a
-                      href="https://www.instagram.com/rcgroup.az/?hl=en"
-                      target="_blank"
-                      target="”_blank”"
-                      ><img src="./img/svg_icon/instagram.svg" alt=""
-                    /></a>
-                    <a href="https://twitter.com/group_rc9810" target="_blank"
-                      ><img src="./img/svg_icon/icons8-twitterx.svg" alt=""
-                    /></a>
-                  </div>
-                </div>
+#siteNavigation a, #siteNavigation .current {
+	font-weight: bold;  color: #448;
+	}
+#siteNavigation a:link    { text-decoration: none; }
+#siteNavigation a:visited { text-decoration: none; }
 
-                <div class="col-12">
-                  <div class="mobile_menu d-block d-lg-none"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+#siteNavigation .current { background-color: #ccd; }
 
-    <div class="slider_area">
-      <div class="slider_active owl-carousel">
-        <div
-          class="single_slider d-flex align-items-center slider_bg_1 overlay"
-        >
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-xl-9 col-md-9">
-                <div class="slider_text">
-                  <h3>Explore RC Group's Construction Legacy</h3>
-                  <a href="#" class="boxed-btn3">View Works</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="single_slider d-flex align-items-center slider_bg_2 overlay"
-        >
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-xl-9 col-md-9">
-                <div class="slider_text">
-                  <h3>Explore RC Group's Construction Legacy</h3>
-                  <a href="#" class="boxed-btn3">View Works</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="single_slider d-flex align-items-center slider_bg_1 overlay"
-        >
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-xl-9 col-md-9">
-                <div class="slider_text">
-                  <h3>Explore RC Group's Construction Legacy</h3>
-                  <a href="#" class="boxed-btn3">View Works</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+#siteNavigation a:hover   { text-decoration: none;  background-color: #fff;  color: #000; }
+#siteNavigation a:active  { text-decoration: none;  background-color: #ccc; }
 
-    <div class="prise_area">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters">
-          <div class="col-xl-4 col-lg-4 col-md-4">
-            <div class="single_prise">
-              <div class="prise_header">
-                <h5>Construction</h5>
-                <p class="prise_text">
-                  With a focus on structural excellence and quality materials,
-                  we bring your vision to life. Our skilled team ensures timely
-                  execution, delivering tailored solutions with efficient
-                  project management.
-                </p>
-              </div>
-              <div class="prise_number">01</div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-4">
-            <div class="single_prise">
-              <div class="prise_header">
-                <h5>Design</h5>
-                <p class="prise_text">
-                  Our expert team transforms spaces into captivating works of
-                  art, harmonizing innovation with functionality. From luxurious
-                  interiors to captivating exteriors that leave a lasting
-                  impression, we bring your vision to life.
-                </p>
-              </div>
-              <div class="prise_number">02</div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-4">
-            <div class="single_prise">
-              <div class="prise_header">
-                <h5>Landscaping</h5>
-                <p class="prise_text">
-                  Our team crafts lush gardens, tranquil water features. Whether
-                  it's a residential oasis or a commercial landscape, we blend
-                  artistry and functionality to create environments that inspire
-                  and delight.
-                </p>
-              </div>
-              <div class="prise_number">03</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="works_area">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="section_title mb-70">
-              <h3>Our Works</h3>
-            </div>
-          </div>
-        </div>
-        <div class="row align-items-center mb-80">
-          <div class="col-lg-7 col-md-6">
-            <div class="thumb">
-              <img src="img/Project details/Azercell/image- (13).png" alt />
-            </div>
-          </div>
-          <div class="col-lg-5 col-md-6">
-            <div class="work_info pl-68">
-              <h3>Azercell Head Office</h3>
-              <p>
-                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit
-                amet
-              </p>
-              <a
-                href="index-azercell.html"
-                target="”_blank”"
-                class="boxed-btn3-line"
-                >Details</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="row align-items-center mb-80">
-          <div class="col-lg-5 col-md-6">
-            <div class="work_info">
-              <h3>Pasha Development Head Office</h3>
-              <p>
-                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit
-                amet
-              </p>
-              <a href="Pasha_dev.html" class="boxed-btn3-line">Details</a>
-            </div>
-          </div>
-          <div class="col-lg-7 col-md-6">
-            <div class="thumb">
-              <img src="img/Project details/Pasha Dev/DSC09997.jpg" alt />
-            </div>
-          </div>
-        </div>
-        <div class="row align-items-center mb-80">
-          <div class="col-lg-7 col-md-6">
-            <div class="thumb">
-              <img src="img/Project details/JW Marriott/image- (9).png" alt />
-            </div>
-          </div>
-          <div class="col-lg-5 col-md-6">
-            <div class="work_info pl-68">
-              <h3>JW Marriott</h3>
-              <p>
-                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit
-                amet
-              </p>
-              <a href="project_details.html" class="boxed-btn3-line">Details</a>
-            </div>
-          </div>
-        </div>
-        <div class="row align-items-center mb-80">
-          <div class="col-lg-5 col-md-6">
-            <div class="work_info">
-              <h3>Port Baku</h3>
-              <p>
-                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit
-                amet
-              </p>
-              <a href="project_details.html" class="boxed-btn3-line">Details</a>
-            </div>
-          </div>
-          <div class="col-lg-7 col-md-6">
-            <div class="thumb">
-              <img src="img/Project details/Port Baku/image- (8).png" alt />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+a:link    { text-decoration: underline;  color: #00f; }
+a:visited { text-decoration: underline;  color: #000; }
+a:hover   { text-decoration: underline;  color: #c00; }
+a:active  { text-decoration: underline; }
 
-    <div class="creative_mind_area">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters align-items-center">
-          <div class="col-xl-6 col-md-12 col-lg-6">
-            <div class="creativ_thumb">
-              <img src="img/creative_mind/1.png" alt />
-            </div>
-          </div>
-          <div class="col-xl-5 col-md-12 col-lg-5">
-            <div class="creative_info">
-              <div class="section_title">
-                <h3>
-                  Professional and <br />
-                  creative mind
-                </h3>
-                <p>
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                  consequat ipsum, <br />
-                  nec sagittis sem nibh id elit duis sed odio sit amet.
-                </p>
-              </div>
-              <div class="progressBars">
-                <div class="single_bar">
-                  <h4>Architecture</h4>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 60%"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      <span>60%</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="single_bar">
-                  <h4>3D Design</h4>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 65%"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      <span>65%</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="single_bar">
-                  <h4>Interior</h4>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 80%"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      <span>80%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a href="about.html" class="boxed-btn3-line">About Us</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+#pageContent {
+	clear: both;
+	border-bottom: 6px solid #000;
+	padding: 10px;  padding-top: 20px;
+	line-height: 1.65em;
+	background-image: url(backblue.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+	}
 
-    <div class="testimonial_area overlay">
-      <p
-        style="
-          text-align: center;
-          padding-bottom: 130px;
-          color: aliceblue;
-          font-size: 36px;
-        "
-      >
-        Our Partners & Clients
-      </p>
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="testmonial_active owl-carousel">
-              <div class="single_carousel">
-                <div class="single_testmonial text-center">
-                  <img
-                    style="transform: scale()"
-                    src="img/clients/pasha-development-1.svg"
-                    alt
-                  />
-                </div>
-              </div>
-              <div class="single_carousel">
-                <div class="single_testmonial text-center">
-                  <img src="img/clients/pasha malls-logo--az.svg" alt />
-                </div>
-              </div>
-              <div class="single_carousel">
-                <div class="single_testmonial text-center">
-                  <img
-                    style="transform: scale()"
-                    src="img/clients/Azercell-logo-3.svg"
-                    alt
-                  />
-                </div>
-              </div>
-              <div class="single_carousel">
-                <div class="single_testmonial text-center">
-                  <img
-                    style="transform: scale()"
-                    src="img/clients/Azerbaycan_Demir_Yollari_logo.svg"
-                    alt
-                  />
-                </div>
-              </div>
-              <div class="single_carousel">
-                <div class="single_testmonial text-center">
-                  <img
-                    style="transform: scale()"
-                    src="img/clients/Silk_Way_West_Airlines_logo.svg"
-                    alt
-                  />
-                </div>
-              </div>
+#pageContent, #siteNavigation {
+	background-color: #ccd;
+	}
 
-              <div class="single_carousel">
-                <div class="single_testmonial text-center">
-                  <img
-                    style="height: 90px"
-                    src="img/clients/million logo.svg"
-                    alt
-                  />
-                </div>
-              </div>
 
-              <div class="single_carousel">
-                <div class="single_testmonial text-center">
-                  <img
-                    style="height: 90px"
-                    src="img/clients/a-s logo.png"
-                    alt
-                  />
-                </div>
-              </div>
+.imgLeft  { float: left;   margin-right: 10px;  margin-bottom: 10px; }
+.imgRight { float: right;  margin-left: 10px;   margin-bottom: 10px; }
 
-              <div class="single_carousel">
-                <div class="single_testmonial text-center">
-                  <img
-                    style="height: 70px"
-                    src="img/clients/socar-logo2.png"
-                    alt
-                  />
-                </div>
-              </div>
+hr { height: 1px;  color: #000;  background-color: #000;  margin-bottom: 15px; }
 
-              <div class="single_carousel">
-                <div class="single_testmonial text-center">
-                  <img
-                    style="height: 60px"
-                    src="img/clients/seabreeze-logo.png"
-                    alt
-                  />
+h1 { margin: 0;  font-weight: bold;  font-size: 2em; }
+h2 { margin: 0;  font-weight: bold;  font-size: 1.6em; }
+h3 { margin: 0;  font-weight: bold;  font-size: 1.3em; }
+h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
 
-                  <!-- <div class="testmonial_author">
-                    <h3>Robert Thomson</h3>
-                    <span>Business Owner</span>
-                  </div> -->
-                </div>
-              </div>
+.blak { background-color: #000; }
+.hide { display: none; }
+.tableWidth { min-width: 400px; }
 
-              <div class="single_carousel">
-                <div class="single_testmonial text-center">
-                  <img src="img/clients/azerpost.svg" alt />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+.tblRegular       { border-collapse: collapse; }
+.tblRegular td    { padding: 6px;  background-image: url(fade.gif);  border: 2px solid #99c; }
+.tblHeaderColor, .tblHeaderColor td { background: #99c; }
+.tblNoBorder td   { border: 0; }
 
-    <div class="instagram_area">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="section_title text-center mb-70">
-              <h3>ISO Certified</h3>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="single_insta">
-              <a href="#"><img src="img/ISO14001.png" alt /></a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="single_insta">
-              <a href="#"><img src="img/ISO45001.png" alt /></a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="single_insta">
-              <a href="#"><img src="img/ISO9001-2015.png" alt /></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <footer class="footer">
-      <div class="query_area">
-        <div class="container">
-          <div class="bottom_border">
-            <div class="row align-items-center">
-              <div class="col-lg-6 col-md-6">
-                <div class="query_text">
-                  <h3>
-                    Have any project or query? <br />
-                    Just say hello <a href="#">Mail Us</a>
-                  </h3>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6">
-                <div class="query_number">
-                  <h3>+994 51 240 88 85</h3>
-                  <p>
-                    <a href="#"
-                      ><span
-                        class="__cf_email__"
-                        data-cfemail="15666065657a6761557c7b6170677c7a673b767a78"
-                        >Office@rcgroup.az</span
-                      ></a
-                    >
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer_top">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-3 col-md-6 col-lg-3">
-              <div class="footer_widget">
-                <h3 class="footer_title">Address</h3>
-                <ul>
-                  <li>
-                    <p>
-                      Baku city Khatai, Firuz Gambarov, house 14, apartment 8
-                    </p>
-                  </li>
-                  <li><a href="#"> +994 51 240 88 85</a></li>
-                  <li>
-                    <a href="#"
-                      ><span
-                        class="__cf_email__"
-                        data-cfemail="7714181903161403371e190312051e18055914181a"
-                        >Office@rcgroup.az</span
-                      ></a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-2 col-md-6 col-lg-2">
-              <div class="footer_widget">
-                <h3 class="footer_title">Services</h3>
-                <ul>
-                  <li><a href="#">Interior</a></li>
-                  <li><a href="#"> Architecture</a></li>
-                  <li><a href="#">3D Modeling</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-lg-3">
-              <div class="footer_widget">
-                <h3 class="footer_title">Company</h3>
-                <ul>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#"> Contact</a></li>
-                  <li><a href="#">Appointment</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-4 col-md-6 col-lg-4">
-              <div class="footer_widget">
-                <h3 class="footer_title">Subscribe</h3>
-                <form action="#" class="newsletter_form">
-                  <input type="text" placeholder="Enter your mail" />
-                  <button type="submit">Subscribe</button>
-                </form>
-                <p class="newsletter_text">Subscribe for latest updates</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
 
-    <script src="../../../cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="../../../static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.html"></script>
-    <script src="../../../cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</style> -->
 
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+</head>
 
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
+ <!-- <table width="76%" border="0" align="center" cellspacing="0" cellpadding="3" class="tableWidth">
+	<tr>
+	<td id="subTitle">HTTrack Website Copier - Open Source offline browser</td>
+	</tr>
+</table>  -->
+ <!-- <table width="76%" border="0" align="center" cellspacing="0" cellpadding="0" class="tableWidth">
+<tr class="blak">
+<td>
+	<table width="100%" border="0" align="center" cellspacing="1" cellpadding="0">
+	<tr>
+	<td colspan="6"> 
+		<table width="100%" border="0" align="center" cellspacing="0" cellpadding="10">
+		<tr> 
+		<td id="pageContent"> 
+<!-- ==================== End prologue ==================== -->
 
-    <script src="js/slick.min.js"></script>
+	/* <meta name="generator" content="HTTrack Website Copier/3.x"> */
+	/* <TITLE>Local index - HTTrack</TITLE> */
+</HEAD>
+<BODY style="background-color: black;">
+<H1 ALIGN=Center>RCGroup</H1>
+	<TABLE BORDER="0" WIDTH="100%" CELLSPACING="1" CELLPADDING="0">
+		<TR>
+			<TD BACKGROUND="fade.gif">
+				&middot;
+					/* <A HREF="preview.colorlib.com/theme/interior2/index.html">
+						interior
+					</A>		 */
+			</TD>
+		</TR>
+	</TABLE>
+	<BR>
+	<BR>
+	<BR>
+  	 <!-- <H6 ALIGN="RIGHT">
+	<I>Mirror and index made by HTTrack Website Copier [XR&amp;CO'2008]</I>
+	</H6> -->
+	/<!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] --> 
+	 <!-- Thanks for using HTTrack Website Copier! --> 
+	<!-- /<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=preview.colorlib.com/theme/interior2/index.html">  -->
 
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-      function collision($div1, $div2) {
-        var x1 = $div1.offset().left;
-        var w1 = 40;
-        var r1 = x1 + w1;
-        var x2 = $div2.offset().left;
-        var w2 = 40;
-        var r2 = x2 + w2;
 
-        if (r1 < x2 || x1 > r2) return false;
-        return true;
-      }
-      // Fetch Url value
-      var getQueryString = function (parameter) {
-        var href = window.location.href;
-        var reg = new RegExp("[?&]" + parameter + "=([^&#]*)", "i");
-        var string = reg.exec(href);
-        return string ? string[1] : null;
-      };
-      // End url
-      // // slider call
-      $("#slider").slider({
-        range: true,
-        min: 20,
-        max: 200,
-        step: 1,
-        values: [
-          getQueryString("minval") ? getQueryString("minval") : 20,
-          getQueryString("maxval") ? getQueryString("maxval") : 200,
-        ],
+<!-- ==================== Start epilogue ==================== -->
+		</td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+	</table>
+</td>
+</tr>
+</table>  -->
 
-        slide: function (event, ui) {
-          $(".ui-slider-handle:eq(0) .price-range-min").html(
-            ui.values[0] + "K"
-          );
-          $(".ui-slider-handle:eq(1) .price-range-max").html(
-            ui.values[1] + "K"
-          );
-          $(".price-range-both").html(
-            "<i>K" + ui.values[0] + " - </i>K" + ui.values[1]
-          );
+<!-- <table width="76%" border="0" align="center" valign="bottom" cellspacing="0" cellpadding="0">
+	<tr>
+	<td id="footer"><small>&copy; 2008 Xavier Roche & other contributors - Web Design: Leto Kauler.</small></td>
+	</tr>
+</table> -->
 
-          // get values of min and max
-          $("#minval").val(ui.values[0]);
-          $("#maxval").val(ui.values[1]);
+</body>
 
-          if (ui.values[0] == ui.values[1]) {
-            $(".price-range-both i").css("display", "none");
-          } else {
-            $(".price-range-both i").css("display", "inline");
-          }
-
-          if (collision($(".price-range-min"), $(".price-range-max")) == true) {
-            $(".price-range-min, .price-range-max").css("opacity", "0");
-            $(".price-range-both").css("display", "block");
-          } else {
-            $(".price-range-min, .price-range-max").css("opacity", "1");
-            $(".price-range-both").css("display", "none");
-          }
-        },
-      });
-
-      $(".ui-slider-range").append(
-        '<span class="price-range-both value"><i>' +
-          $("#slider").slider("values", 0) +
-          " - </i>" +
-          $("#slider").slider("values", 1) +
-          "</span>"
-      );
-
-      $(".ui-slider-handle:eq(0)").append(
-        '<span class="price-range-min value">' +
-          $("#slider").slider("values", 0) +
-          "k</span>"
-      );
-
-      $(".ui-slider-handle:eq(1)").append(
-        '<span class="price-range-max value">' +
-          $("#slider").slider("values", 1) +
-          "k</span>"
-      );
-    </script>
-
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-23581568-13");
-    </script>
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317"
-      integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA=="
-      data-cf-beacon='{"rayId":"8424c22c8c009bdc","b":1,"version":"2023.10.0","token":"cd0b4b3a733644fc843ef0b185f98241"}'
-      crossorigin="anonymous"
-    ></script>
-  </body>
-<!-- 
-  Mirrored from preview.colorlib.com/theme/interior2/index.html by HTTrack
-  Website Copier/3.x [XR&CO'2014], Mon, 08 Jan 2024 13:24:28 GMT -->
 </html>
+
+
