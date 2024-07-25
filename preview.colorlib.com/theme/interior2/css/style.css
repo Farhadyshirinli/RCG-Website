@@ -3232,6 +3232,19 @@ h3 {
   background-image: url(../img/PashaDev/DSC02971.jpg);
 }
 
+.bradcam_bg_5 {
+  background-image: url(../img/Athletes_Village/Athlk\ \(2\).jpg);
+}
+
+.bradcam_bg_6 {
+  background-image: url(../img/Baku_Palace/Posted\ \(3\).jpg);
+}
+
+.single_thumb{
+  width: 100%;
+  height: 100%;
+}
+
 /* line 13, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;
