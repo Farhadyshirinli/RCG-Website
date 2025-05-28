@@ -970,6 +970,10 @@ h3 {
   background-image: url(../img/Main_Images/RC-Main-yellow.jpg);
 }
 
+.slider_bg_3 {
+  background-image: url(../img/JWMarriott/Staff.jpg);
+}
+
 /* line 7, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_slider.scss */
 .slider_area {
   position: relative;
@@ -3250,6 +3254,10 @@ h3 {
 
 .bradcam_bg_9 {
   background-image: url(../img/On_site_1.jpg);
+}
+
+.bradcam_bg_10 {
+  background-image: url(../img/JWMarriott/Absheron_insulation_proj1.jpg);
 }
 
 .single_thumb{
