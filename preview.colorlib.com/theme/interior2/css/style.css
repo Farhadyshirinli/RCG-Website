@@ -3257,8 +3257,13 @@ h3 {
 }
 
 .bradcam_bg_10 {
+  background-image: url(../img/Baku_City_Villas/BCW-Cover.jpg);
+}
+
+.bradcam_bg_11 {
   background-image: url(../img/JWMarriott/Absheron_insulation_proj1.jpg);
 }
+
 
 .single_thumb{
   width: 100%;
